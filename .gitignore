@@ -1,0 +1,42 @@
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+
+# Rider / VS 
+.vscode/
+.vs/
+.anx/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Config 
+*.tmp
+*.cache
+*.db
+
+# User-specific files
+*.userprefs
+*.csproj.user
+
+# Mac / Linux
+.DS_Store
+Thumbs.db
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Publish
+publish/
+
+# Treefy stuff
+.treefy/
