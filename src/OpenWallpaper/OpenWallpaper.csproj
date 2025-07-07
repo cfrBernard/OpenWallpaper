@@ -1,27 +1,15 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UseWPF>true</UseWPF>
-
-    <!-- Assembly info -->
-    <AssemblyTitle>OpenWallpaper</AssemblyTitle>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
-    <Company>TonNomOuSociete</Company>
-    <Authors>TonNom</Authors>
-    <Product>OpenWallpaper</Product>
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- assembly infos -->
   </PropertyGroup>
-
-  <!-- ThemeInfo -->
   <ItemGroup>
-    <AssemblyAttribute Include="System.Windows.ThemeInfoAttribute">
-      <_Parameter1>None</_Parameter1>
-      <_Parameter2>SourceAssembly</_Parameter2>
-    </AssemblyAttribute>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="LibVLCSharp.WPF" Version="3.9.3" />
   </ItemGroup>
-
 </Project>
