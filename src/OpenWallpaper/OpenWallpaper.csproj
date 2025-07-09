@@ -11,5 +11,6 @@
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="LibVLCSharp.WPF" Version="3.9.3" />
+	<Reference Include="System.Windows.Forms" />
   </ItemGroup>
 </Project>

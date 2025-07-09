@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OpenWallpaper"
         mc:Ignorable="d"
-        Title="Open Wallpaper" Height="450" Width="800">
+        Title="Open Wallpaper" Height="580" Width="1016">
     <Grid Margin="20">
         <ScrollViewer VerticalScrollBarVisibility="Auto">
             <ItemsControl ItemsSource="{Binding Wallpapers}">
