@@ -10,5 +10,13 @@ namespace OpenWallpaper.Gui.Views
             InitializeComponent();
             DataContext = new MainViewModel();
         }
+
+        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
+        {
+            base.OnClosing(e);
+
+            e.Cancel = true;
+            this.Hide();
+        }
     }
 }
